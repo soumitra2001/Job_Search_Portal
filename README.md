@@ -12,9 +12,10 @@ In this project, we have four layers-
 * **Repository** - This layer mainatains the h2-database thing on which CRUD operations are performed
 * **Model** - This layer consists basically the class level things- the various classes required for the project and these classes consists the attributes to be stored.
 * **Database Design**
+
       - Used H2 Database
-      ```
-		            table job (
+      
+		      table job (
         	      job_id bigint not null,
         	      applied_date date not null,
         	      company_name varchar(255) not null,
@@ -26,7 +27,7 @@ In this project, we have four layers-
         	      title varchar(255) not null,
         	      primary key (job_id)
         )
-      ```
+    
       
       
 >## Data Structure used in my project
